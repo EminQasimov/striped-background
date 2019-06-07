@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Responsive Striped background pure CSS</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+      }
+
+      .pie {
+        width: 500%;
+        height: 500%;
+        position: relative;
+        overflow: hidden;
+        top: -200%;
+        left: -200%;
+        -webkit-animation: rot 111s linear infinite;
+        animation: rot 111s linear infinite;
+      }
+
+      .pie p {
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        background: #ff9800;
+        -webkit-transform-origin: right bottom;
+        -ms-transform-origin: right bottom;
+        transform-origin: right bottom;
+      }
+      .pie p:nth-child(2n) {
+        background: yellow;
+      }
+
+      .p1 {
+        -webkit-transform: rotate(12deg) skew(78deg);
+        -ms-transform: rotate(12deg) skew(78deg);
+        transform: rotate(12deg) skew(78deg);
+      }
+
+      .p2 {
+        -webkit-transform: rotate(24deg) skew(78deg);
+        -ms-transform: rotate(24deg) skew(78deg);
+        transform: rotate(24deg) skew(78deg);
+      }
+
+      .p3 {
+        -webkit-transform: rotate(36deg) skew(78deg);
+        -ms-transform: rotate(36deg) skew(78deg);
+        transform: rotate(36deg) skew(78deg);
+      }
+
+      .p4 {
+        -webkit-transform: rotate(48deg) skew(78deg);
+        -ms-transform: rotate(48deg) skew(78deg);
+        transform: rotate(48deg) skew(78deg);
+      }
+
+      .p5 {
+        -webkit-transform: rotate(60deg) skew(78deg);
+        -ms-transform: rotate(60deg) skew(78deg);
+        transform: rotate(60deg) skew(78deg);
+      }
+
+      .p6 {
+        -webkit-transform: rotate(72deg) skew(78deg);
+        -ms-transform: rotate(72deg) skew(78deg);
+        transform: rotate(72deg) skew(78deg);
+      }
+
+      .p7 {
+        -webkit-transform: rotate(84deg) skew(78deg);
+        -ms-transform: rotate(84deg) skew(78deg);
+        transform: rotate(84deg) skew(78deg);
+      }
+
+      .p8 {
+        -webkit-transform: rotate(96deg) skew(78deg);
+        -ms-transform: rotate(96deg) skew(78deg);
+        transform: rotate(96deg) skew(78deg);
+      }
+
+      .p9 {
+        -webkit-transform: rotate(108deg) skew(78deg);
+        -ms-transform: rotate(108deg) skew(78deg);
+        transform: rotate(108deg) skew(78deg);
+      }
+
+      .p10 {
+        -webkit-transform: rotate(120deg) skew(78deg);
+        -ms-transform: rotate(120deg) skew(78deg);
+        transform: rotate(120deg) skew(78deg);
+      }
+
+      .p11 {
+        -webkit-transform: rotate(132deg) skew(78deg);
+        -ms-transform: rotate(132deg) skew(78deg);
+        transform: rotate(132deg) skew(78deg);
+      }
+
+      .p12 {
+        -webkit-transform: rotate(144deg) skew(78deg);
+        -ms-transform: rotate(144deg) skew(78deg);
+        transform: rotate(144deg) skew(78deg);
+      }
+
+      .p13 {
+        -webkit-transform: rotate(156deg) skew(78deg);
+        -ms-transform: rotate(156deg) skew(78deg);
+        transform: rotate(156deg) skew(78deg);
+      }
+
+      .p14 {
+        -webkit-transform: rotate(168deg) skew(78deg);
+        -ms-transform: rotate(168deg) skew(78deg);
+        transform: rotate(168deg) skew(78deg);
+      }
+
+      .p15 {
+        -webkit-transform: rotate(180deg) skew(78deg);
+        -ms-transform: rotate(180deg) skew(78deg);
+        transform: rotate(180deg) skew(78deg);
+      }
+
+      .p16 {
+        -webkit-transform: rotate(192deg) skew(78deg);
+        -ms-transform: rotate(192deg) skew(78deg);
+        transform: rotate(192deg) skew(78deg);
+      }
+
+      .p17 {
+        -webkit-transform: rotate(204deg) skew(78deg);
+        -ms-transform: rotate(204deg) skew(78deg);
+        transform: rotate(204deg) skew(78deg);
+      }
+
+      .p18 {
+        -webkit-transform: rotate(216deg) skew(78deg);
+        -ms-transform: rotate(216deg) skew(78deg);
+        transform: rotate(216deg) skew(78deg);
+      }
+
+      .p19 {
+        -webkit-transform: rotate(228deg) skew(78deg);
+        -ms-transform: rotate(228deg) skew(78deg);
+        transform: rotate(228deg) skew(78deg);
+      }
+
+      .p20 {
+        -webkit-transform: rotate(240deg) skew(78deg);
+        -ms-transform: rotate(240deg) skew(78deg);
+        transform: rotate(240deg) skew(78deg);
+      }
+
+      .p21 {
+        -webkit-transform: rotate(252deg) skew(78deg);
+        -ms-transform: rotate(252deg) skew(78deg);
+        transform: rotate(252deg) skew(78deg);
+      }
+
+      .p22 {
+        -webkit-transform: rotate(264deg) skew(78deg);
+        -ms-transform: rotate(264deg) skew(78deg);
+        transform: rotate(264deg) skew(78deg);
+      }
+
+      .p23 {
+        -webkit-transform: rotate(276deg) skew(78deg);
+        -ms-transform: rotate(276deg) skew(78deg);
+        transform: rotate(276deg) skew(78deg);
+      }
+
+      .p24 {
+        -webkit-transform: rotate(288deg) skew(78deg);
+        -ms-transform: rotate(288deg) skew(78deg);
+        transform: rotate(288deg) skew(78deg);
+      }
+
+      .p25 {
+        -webkit-transform: rotate(300deg) skew(78deg);
+        -ms-transform: rotate(300deg) skew(78deg);
+        transform: rotate(300deg) skew(78deg);
+      }
+
+      .p26 {
+        -webkit-transform: rotate(312deg) skew(78deg);
+        -ms-transform: rotate(312deg) skew(78deg);
+        transform: rotate(312deg) skew(78deg);
+      }
+
+      .p27 {
+        -webkit-transform: rotate(324deg) skew(78deg);
+        -ms-transform: rotate(324deg) skew(78deg);
+        transform: rotate(324deg) skew(78deg);
+      }
+
+      .p28 {
+        -webkit-transform: rotate(336deg) skew(78deg);
+        -ms-transform: rotate(336deg) skew(78deg);
+        transform: rotate(336deg) skew(78deg);
+      }
+
+      .p29 {
+        -webkit-transform: rotate(348deg) skew(78deg);
+        -ms-transform: rotate(348deg) skew(78deg);
+        transform: rotate(348deg) skew(78deg);
+      }
+
+      .p30 {
+        -webkit-transform: rotate(360deg) skew(78deg);
+        -ms-transform: rotate(360deg) skew(78deg);
+        transform: rotate(360deg) skew(78deg);
+      }
+
+      @-webkit-keyframes rot {
+        to {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+
+      @keyframes rot {
+        to {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pie">
+      <p class="p1"></p>
+      <p class="p2"></p>
+      <p class="p3"></p>
+      <p class="p4"></p>
+      <p class="p5"></p>
+      <p class="p6"></p>
+      <p class="p7"></p>
+      <p class="p8"></p>
+      <p class="p9"></p>
+      <p class="p10"></p>
+      <p class="p11"></p>
+      <p class="p12"></p>
+      <p class="p13"></p>
+      <p class="p14"></p>
+      <p class="p15"></p>
+      <p class="p16"></p>
+      <p class="p17"></p>
+      <p class="p18"></p>
+      <p class="p19"></p>
+      <p class="p20"></p>
+      <p class="p21"></p>
+      <p class="p22"></p>
+      <p class="p23"></p>
+      <p class="p24"></p>
+      <p class="p25"></p>
+      <p class="p26"></p>
+      <p class="p27"></p>
+      <p class="p28"></p>
+      <p class="p29"></p>
+      <p class="p30"></p>
+    </div>
+  </body>
+</html>
